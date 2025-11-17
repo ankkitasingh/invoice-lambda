@@ -21,5 +21,5 @@ logging:
 
 aws:
   ses:
-    region: ap-southeast-2
-    senderEmail: ankkitasingh35@gmail.com
+    region: ${APP_REGION:region_name}
+    senderEmail: ${SENDER_EMAIL:sender_email@yopmail.com}
