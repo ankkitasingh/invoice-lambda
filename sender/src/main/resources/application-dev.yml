@@ -21,5 +21,5 @@ logging:
 
 aws:
   ses:
-    region: ${APP_REGION:region_name}
-    senderEmail: ${SENDER_EMAIL:sender_email@yopmail.com}
+    region: ${AWS_REGION:region_name}
+    senderEmail: ${SES_SENDER_EMAIL:sender_email@yopmail.com}
